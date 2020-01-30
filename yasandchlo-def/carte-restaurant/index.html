@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title> carte restaurant</title>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <link rel="stylesheet" type="text/css" href="style.css">
+      <!--BOOTSTRAP-->
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+      <!--Police pour le logo-->
+      <link href="https://fonts.googleapis.com/css?family=Stalemate&display=swap" rel="stylesheet">
+      <!--Police Menu-->
+      <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+      <!--Police Hôtel & Spa-->
+      <link href="https://fonts.googleapis.com/css?family=Caveat&display=swap" rel="stylesheet">
+   </head>
+   <body>
+      <div class="container-fluid">
+         <!-- HEADER-->
+         <header>
+            <section>
+            <div class="logo">
+               <a href="../home-def/home.html" id="logo">Paradisien
+               </a>
+               <div class="hotel">HÔTEL & SPA <br>
+                  PARIS
+               </div>
+            </div>
+            <!-- BOUTON RESERVER-->
+            <div class="containerReserver">
+               <a href="../form/form.html" class="reserver">RESERVER</a>
+            </div>
+            <!-- BOUTON AVIS-->
+            <div class="containerAvis">
+               <a href="../avis-def/avis.html" class="avis">AVIS</a>
+            </div>
+         </header>
+         <!-- NAVIGATION-->
+         <nav>
+            <ul>
+               <div class="row justify-content-center">
+                  <div class="col-md-1">
+                     <li class="menu">
+                        <a href="../infos-def/infos.html">HÔTEL</a>
+                        <ul class="submenu">
+                           <li><a href="../contact/index.html">Contact</a></li>
+                           <li><a href="../recrutement/index.html">Recrutement</a></li>
+                           <li><a href="../event/event.html">Evénements & Presse</a></li>
+                        </ul>
+                     </li>
+                  </div>
+                  <div class="col-md-2">
+                     <li class="menu">
+                        <a href="../chambres/chambres.html">CHAMBRES</a>
+                        <ul class="submenu">
+                           <li><a href="../chambre-classique/index.html">Classique</a></li>
+                           <li><a href="../chambre-confort/index.html">Confort</a></li>
+                           <li><a href="../chambre-deluxe/index.html">Deluxe</a></li>
+                           <li><a href="../chambre-suite/index.html">Suite</a></li>
+                        </ul>
+                     </li>
+                  </div>
+                  <div class="col-md-2">
+                     <li class="menu">
+                        <a href="../restaurant-def/restaurant.html">RESTAURANT</a>
+                        <ul class="submenu">
+                           <li><a href="../carte-brasserie/index.html">Carte Brasserie</a></li>
+                           <li><a href="../carte-degustation/index.html">Carte Dégustation</a></li>
+                           <li><a href="../carte-restaurant/index.html">Carte Restaurant</a></li>
+                        </ul>
+                     </li>
+                  </div>
+                  <div class="col-md-1">
+                     <li class="menu"><a href="../spa-def/spa.html">SPA</a>
+                     </li>
+                  </div>
+                  <div class="col-md-2">
+                     <li class="menu"><a href="../actualites/actualites.html">ACTUALITES</a></li>
+                  </div>
+                  <div class="col-md-2">
+                     <li class="menu"><a href="../contact/index.html">CONTACT</a> </li>
+                  </div>
+                  <div class="col-md-2">
+                     <!-- BARRE RECHERCHER-->
+                     <form id="recherche" method="get" action="#">
+                        <input type="text" name="recherche" placeholder="Rechercher"> 
+                        <button type="submit" ><i class="fas fa-search"></i>
+                        </button>       
+                     </form>
+                  </div>
+               </div>
+            </ul>
+         </nav>
+         <br>
+         <!-- MAIN-->
+         <main>
+            <div class="row justify-content-center text-justify">
+               <div class="col-10 d-flex article">
+                  <div class="col-md-6">
+                     <h2> Notre sélection au restaurant </h2>
+                     <p> Destination incontournable de la gastronomie et du design, Le Paradisien Restaurant vous invite à découvrir une cuisine créative et raffinée, aux saveurs venues des quatre coins du monde.</p>
+                     <h4>Le brunch</h4>
+                     <p>Côté Brunch, Le Paradisien vous accueille chaque dimanche pour un buffet délicieusement gourmand, entre assortiment de pains et viennoiseries, et sélection de mets salés et sucrés aux multiples saveurs.</p>
+                     <!--INFORMATIONS -->
+                     <div class="infos clr">
+                        <h4> Horaires</h4>
+                        <p> Lundi – Vendredi : Déjeuner de 12:00 à 14:30</p>
+                        <p> Mardi – Samedi : Dîner de 19:00 à 22:30</p>
+                        <p> Brunch du dimanche de 12:30 à 15:00</p>
+                        <h4>Contact</h4>
+                        <p>inforestaurant@leparisien.com</p>
+                        <p>01.58.35.00.23</p>
+                     </div>
+                     <!--LINKS CARTE-->
+                     <div class="link_style">
+                        <a href="link/restaurant.jpg">Consulter la carte Menu</a><br>
+                        <a href="link/cocktail.jpg">Consulter la carte des Cocktails</a>
+                     </div>
+                  </div>
+                  <!-- Fin cellule suite-->
+                  <!-- debut cellule image-->
+                  <div class="col-md-6">
+                     <img class="img-fluid" id="img1" src="img/img14.jpg">
+                  </div>
+               </div>
+            </div>
+         </main>
+         <br>
+         <!----- chevron haut de page---->
+         <center>
+            <a href="#top" class="postlink"><i class="fas fa-chevron-circle-up" style="color:#ccae62"></i></a>
+         </center>
+         <!-- FOOTER-->
+         <!-- Footer -->
+         <footer>
+            <!--row -->
+            <div class="row justify-content-center">
+               <!-- NEWSLETTER -->
+               <div class="col-md-3">
+                  <!-- Content NEWSLETTER -->
+                  <h5 class="text-uppercase">S'inscrire à la Newsletter</h5>
+                  <form class="form">
+                     <input type="email" name="email" placeholder="email">
+                     <button class="bouton" type="submit">S'inscrire</button>
+                  </form>
+               </div>
+               <!---->
+               <div class="col-md-3">
+                  <!-- Content Adresse -->
+                  <h5 class="text-uppercase">LE PARADISIEN</h5>
+                  <h6>15 avenue de Suffren 75007 Paris</h6>
+                  <h6>01 58 35 00 25</h6>
+               </div>
+               <!---->
+               <div class="col-md-2">
+                  <!-- LIENS PARTAGER-->
+                  <h5 class="text-uppercase">PARTAGER</h5>
+                  <ul class="list-unstyled">
+                     <li>
+                        <i class="fab fa-facebook"></i>  <a href="https://www.facebook.com/">facebook</a>
+                     </li>
+                     <li>
+                        <i class="fab fa-instagram"></i>  <a href="https://www.instagram.com/?hl=fr">Instagram</a>
+                     </li>
+                     <li>
+                        <i class="fab fa-tripadvisor"></i>  <a href="https://www.tripadvisor.fr/">Tripadvisor</a>
+                     </li>
+                  </ul>
+               </div>
+               <!---->
+               <div class="col-md-2">
+                  <!-- LIENS UTILES -->
+                  <h5 class="text-uppercase">LIENS UTILES</h5>
+                  <ul class="list-unstyled">
+                     <li>
+                        <a href="../ml/index.html">Mentions légales</a>
+                     </li>
+                     <li>
+                        <a href="#!">Plan du site</a>
+                     </li>
+                     <li>
+                        <a href="../contact/index.html">Contact</a>
+                     </li>
+                  </ul>
+               </div>
+               <!---->
+            </div>
+            <!-- Copyright -->
+            <div class="row justify-content-center">
+               <div class="footer-copyright text-center">© 2020 Copyright:
+                  Yas&chlo
+               </div>
+            </div>
+            <!-- FIN Copyright -->
+      </div>
+      </footer>
+      </div> 
+      <!-- FONT AWESOME-->
+      <script src="https://use.fontawesome.com/releases/v5.12.0/js/all.js" data-auto-replace-svg="nest"></script>
+      <!-- BOOTSRAP-->
+      <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+   </body>
+</html>
